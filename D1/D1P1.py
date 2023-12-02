@@ -1,7 +1,6 @@
 with open('D1\input.txt') as f:
     lines = f.readlines()
     
-print(lines)
 val = 0
 #Read through the lines
 for line in lines:
