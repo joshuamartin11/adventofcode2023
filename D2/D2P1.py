@@ -1,7 +1,3 @@
-from lib2to3.pgen2.token import PLUSEQUAL
-from posixpath import split
-
-
 with open('D2\input.txt') as f:
     lines = f.readlines()
 
