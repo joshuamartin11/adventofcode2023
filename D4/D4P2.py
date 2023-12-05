@@ -22,6 +22,7 @@ for line in lines:
     winners = cardSplit[0].strip().split(' ')
     while "" in winners:
         winners.remove("")
+
     numbers = cardSplit[1].strip().split(' ')
     cardStack.append((winners,numbers))
 total = 0
