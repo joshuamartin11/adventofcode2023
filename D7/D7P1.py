@@ -1,6 +1,6 @@
 vals = {"A": 14, "K": 13, "Q": 12, "J": 11, "T": 10}
 
-with open('D7/inputtest.txt') as f:
+with open('D7/input.txt') as f:
     lines = f.readlines()
 
 
